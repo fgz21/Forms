@@ -1,0 +1,65 @@
+*{
+	padding: 0;
+  	margin: 0;
+}
+
+body{
+	
+	background: #0f0c29;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+	min-height: 100vh;
+
+
+}
+
+.title{
+	position: relative;
+	bottom: 35px;
+	color: black;
+
+}
+
+.input1 {
+	text-align: center;
+	width: 30%;
+	padding: 50px;
+	margin: auto;
+	box-shadow: 0 0 10px;
+	background: #fff;
+
+
+}
+
+.input1 input{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+
+}
+
+
+button{
+		
+  width: 29%;
+  padding: 12px 20px;
+  margin: 5px 0px;
+  float: left;
+
+ 
+
+}
+
+.btn1{
+	float: left;
+}
+
+.btn2{
+	float: right;
+
+}
